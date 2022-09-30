@@ -18,7 +18,7 @@
     --textColor: white;
     --menuBackgroundColor:white;
     --navTextColor:white;
-    --navBackgroundColor:rgb(43, 120, 150);
+    --navBackgroundColor:rgba(0, 0, 0, 0);
     --buttonTextColor:black;
     --buttonBackgroundColor:rgb(246, 205, 140);
     --buttonBorderColor:black;
