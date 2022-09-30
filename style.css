@@ -16,9 +16,9 @@
     --gradientColor1: papayawhip;
     --gradientColor2: rgb(43, 120, 150);
     --textColor: white;
-    --menuItemsBackgroundColor:rgb(43, 120, 150);
     --menuBackgroundColor:white;
     --navTextColor:white;
+    --navBackgroundColor:rgb(43, 120, 150);
     --buttonTextColor:black;
     --buttonBackgroundColor:rgb(246, 205, 140);
     --buttonBorderColor:black;
@@ -65,7 +65,7 @@ body{
   .header ul {
     list-style: none;
     overflow: hidden;
-    background-color: var(--textColor);
+    background-color: var(--navBackgroundColor);
   }
   
   .header li a {
@@ -122,7 +122,7 @@ body{
 
   .header .menu-icon .navicon:before,
   .header .menu-icon .navicon:after {
-    background: var(--menuItemsBackgroundColor);
+    background: var(--textColor);
     content: '';
     display: block;
     height: 100%;
