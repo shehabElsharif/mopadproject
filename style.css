@@ -524,6 +524,9 @@ footer p{
         .container .personal_pic3 img{
             margin-top:5rem;
         }
+        header li{
+            background-color: white;
+        }
         .menu li:hover{
             background-color: rgb(223, 223, 223);
         }
